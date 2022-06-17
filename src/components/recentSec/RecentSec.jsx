@@ -11,7 +11,7 @@ const RecentSec = () => {
           <div className='rTitleCont'>
             <h3>RECENT NFT</h3>
             <div className='vline'></div>
-            <p>VIEW MORE</p>
+            <p className="rlink">VIEW MORE</p>
           </div>
         </div>
         <div className='recentCarousel'>

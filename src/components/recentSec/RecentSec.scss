@@ -1,0 +1,56 @@
+.recentSec {
+    margin: 80px 0;
+
+    .recentCont {
+        display: flex;
+        flex-direction: column;
+        gap: 13px;
+
+        .recentTitle {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+
+            .rTitleCont {
+                display: flex;
+                align-items: center;
+                gap: 27px;
+                margin-right: 110px;
+
+                h3 {
+                    font-size: 28px;
+                    font-weight: 700;
+                    line-height: 50px;
+                    letter-spacing: 0.03em;
+                    background: linear-gradient(295.38deg, #ffe5a2 4.89%, #bf841a 50.44%, #ffcd74 95.06%);
+                    -webkit-background-clip: text;
+                    background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    text-fill-color: transparent;
+                }
+
+                .vline {
+                    width: 1px;
+                    align-self: stretch;
+                    background: linear-gradient(295.38deg, #ffe5a2 4.89%, #bf841a 50.44%, #ffcd74 95.06%);
+                }
+
+                .rlink {
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 50px;
+                    letter-spacing: 0.03em;
+                    color: rgba($color: #fff, $alpha: 0.8);
+                }
+            }
+        }
+
+        .recentCarousel {
+            overflow: hidden;
+            display: flex;
+            gap: 79px;
+            align-items: center;
+            margin-left: 110px;
+        }
+    }
+}

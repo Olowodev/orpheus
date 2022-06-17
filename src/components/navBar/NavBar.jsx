@@ -16,7 +16,7 @@ const NavBar = () => {
           <p>CONTRIBUTION</p>
           <p>COMMUNITY</p>
           <p>GET IN TOUCH</p>
-          <FaRegSun />
+          <FaRegSun style={{fontSize: "29px"}} />
         </div>
       </div>
     </div>

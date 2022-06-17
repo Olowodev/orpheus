@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import NavBar from './components/navBar/NavBar'
 import Header from './components/header/Header'
 import RecentSec from './components/recentSec/RecentSec'
