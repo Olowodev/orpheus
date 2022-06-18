@@ -1,0 +1,19 @@
+.nftCard {
+    position: relative;
+
+    & img {
+        display: block;
+    }
+
+    .nftAbsolute {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background: linear-gradient(90deg, rgba(9, 11, 14, 0.81) 19.79%, rgba(9, 11, 14, 0) 97.4%);
+        padding: 7px 20px;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 50px;
+        letter-spacing: 0.035em;
+    }
+}

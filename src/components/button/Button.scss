@@ -20,3 +20,12 @@
         text-fill-color: transparent;
     }
 }
+
+.black-text-button {
+    background: linear-gradient(295.38deg, #FFE5A2 4.89%, #BF841A 50.44%, #FFCD74 95.06%);
+}
+
+.black-text-button:hover {
+    background: linear-gradient(295.38deg, #BF841A 4.89%, #FFE5A2 50.44%, #BF841A 95.06%);
+    cursor: pointer;
+}

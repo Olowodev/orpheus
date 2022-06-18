@@ -14,25 +14,29 @@ const ContributionSec = () => {
                 <div className="cTitle">
                     <h2>CONTRIBUTION</h2>
                     <div className='vline'></div>
-                    <p>VIEW MORE</p>
+                    <p className='clink'>VIEW MORE</p>
                 </div>
             </div>
             <div className="contributeCards">
                 <div className="contributeCard">
-                    <img src={contribution1} />
+                    <div className='cImg'>
+                        <img src={contribution1} />
+                    </div>
                     <div className="cCardText">
                         <h1>3D GREEK STATUE PACK</h1>
-                        <h2>OVER 200 GREEK STYLE SCULPTURE</h2>
+                        <h2>OVER <span>200</span> GREEK STYLE SCULPTURE</h2>
                         <Button reverse text="DOWNLOAD" background borderRadius textColor="black" padding="15px" Icon={FaDownload} />
                     </div>
                 </div>
                 <div className="contributeCard">
                     <div className="cCardText">
                         <h1>GREEK STATUE AVATARS</h1>
-                        <h2>+500 GREEK STYLE USER AVATARS</h2>
+                        <h2>+500 GREEK STYLE <span>USER AVATARS</span></h2>
                         <Button reverse text="DOWNLOAD" background borderRadius textColor="black" padding="15px" Icon={FaDownload} />
                     </div>
-                    <img src={contribution2} />
+                    <div className='cImg'>
+                        <img src={contribution2} />
+                    </div>
                 </div>
             </div>
         </div>
