@@ -8,7 +8,7 @@ import contribution2 from '../../images/contribute2.png'
 
 const ContributionSec = () => {
   return (
-    <div className="contributionSec">
+    <div id='contribution' className="contributionSec">
         <div className="contributeCont">
             <div className="cTitleCont">
                 <div className="cTitle">

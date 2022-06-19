@@ -12,10 +12,9 @@ const NavBar = () => {
           <p>ORPHEUS</p>
         </div>
         <div className='rightNav'>
-          <p>WORKS</p>
-          <p>CONTRIBUTION</p>
-          <p>COMMUNITY</p>
-          <p>GET IN TOUCH</p>
+          <a href='#works'><p>WORKS</p></a>
+          <a href='#contribution'><p>CONTRIBUTION</p></a>
+          <a href='#contact'><p>GET IN TOUCH</p></a>
           <FaRegSun style={{fontSize: "29px"}} />
         </div>
       </div>

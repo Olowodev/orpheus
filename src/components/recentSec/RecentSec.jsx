@@ -5,7 +5,7 @@ import './RecentSec.scss'
 
 const RecentSec = () => {
   return (
-    <div className='recentSec'>
+    <div id='works' className='recentSec'>
       <div className='recentCont'>
         <div className='recentTitle'>
           <div className='rTitleCont'>

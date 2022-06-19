@@ -27,5 +27,45 @@
         font-weight: 500;
         font-size: 16px;
         line-height: 20px;
+
+        & p {
+            position: relative; 
+        }
+
+        & p::before {
+            width: 100%;
+            top: 100%;
+            margin-top: 5px;
+            height: 3px;
+            content: "";
+            transform: scaleX(0);
+            transform-origin: right;
+            background: linear-gradient(295.38deg, #ffe5a2 4.89%, #bf841a 50.44%, #ffcd74 95.06%);
+            position: absolute;
+            transition: transform 0.3s;
+        }        
+
+        & a:hover p::before {
+            transform: scaleX(1);
+            transform-origin: left;
+        }
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: scaleX(0);
+    }
+    to {
+        transform: scaleX(1);
+    }
+}
+
+@keyframes slideOut {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(105%);
     }
 }

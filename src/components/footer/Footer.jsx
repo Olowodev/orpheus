@@ -4,7 +4,7 @@ import { FaLinkedinIn, FaInstagram, FaRegEnvelope } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className='footer'>
+    <div id='contact' className='footer'>
       <div className='footerCont'>
         <h1>LET'S CONNECT</h1>
         <p>GET IN TOUCH FOR OPPORTUNITIES OR JUST TO SAY HI! 👋</p>
