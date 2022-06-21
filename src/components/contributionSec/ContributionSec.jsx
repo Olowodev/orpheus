@@ -2,11 +2,15 @@ import React from 'react'
 import Button from '../button/Button'
 import './ContributionSec.scss'
 import { FaDownload } from "react-icons/fa";
-import contribution1 from '../../images/contribute1.png'
 import contribution2 from '../../images/contribute2.png'
+import contribution3 from '../../images/contribute3.png'
+import { useSelector } from 'react-redux/es/hooks/useSelector';
+
 
 
 const ContributionSec = () => {
+
+    const theme = useSelector((state) => state.theme.theme === null ? null : state.theme.theme)
   return (
     <div id='contribution' className="contributionSec">
         <div className="contributeCont">
@@ -19,8 +23,8 @@ const ContributionSec = () => {
             </div>
             <div className="contributeCards">
                 <div className="contributeCard">
-                    <div className='cImg'>
-                        <img src={contribution1} />
+                    <div className={theme === "light" ? 'cImg imgMask' : 'cImg'}>
+                        <img src={contribution3} />
                     </div>
                     <div className="cCardText">
                         <h1>3D GREEK STATUE PACK</h1>

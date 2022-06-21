@@ -3,11 +3,18 @@ import Button from '../button/Button'
 import './Header.scss'
 import heroBg from '../../images/heroImgBg.png'
 import hero from '../../images/hero.png'
+import lightHero from '../../images/lightHero.png'
+import lightHeroBg from '../../images/lightHeroBg.png'
 import {FaAngleDown} from 'react-icons/fa'
+import { useSelector } from 'react-redux/es/hooks/useSelector'
 
 const Header = () => {
+
+  const theme = useSelector((state) => state.theme.theme === null ? null : state.theme.theme)
+
+
   return (
-    <div className='header'>
+    <div id='home' className='header'>
       <div className='headerCont'>
         <div className='leftHeader'>
           <h1>Yet the story of <span>Orpheus</span></h1>
@@ -19,8 +26,8 @@ const Header = () => {
         </div>
         <div className='rightHeader'>
           <div className='hero'>
-            <img src={hero} />
-            <img src={heroBg} />
+            <img src={theme === "dark" ? hero : lightHero} />
+            <img src={theme === "dark" ? heroBg : lightHeroBg} />
           </div>
         </div>
       </div>

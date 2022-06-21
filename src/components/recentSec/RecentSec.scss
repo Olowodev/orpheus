@@ -40,7 +40,7 @@
                     font-weight: 400;
                     line-height: 50px;
                     letter-spacing: 0.03em;
-                    color: rgba($color: #fff, $alpha: 0.8);
+                    color: rgba($color: var(--title-color), $alpha: 0.8);
                 }
             }
         }
