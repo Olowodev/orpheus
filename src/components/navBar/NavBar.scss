@@ -7,7 +7,7 @@
 }
 
 .navCont {
-    padding: 15px 97px;
+    padding: 1.5% 7%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -70,5 +70,11 @@
     }
     to {
         transform: translateX(105%);
+    }
+}
+
+@media (max-width: 767px) {
+    .rightNav {
+        display: none;
     }
 }

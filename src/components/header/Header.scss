@@ -1,5 +1,5 @@
 .headerCont {
-    margin: 70px 111px;
+    margin: 5% 7%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,6 +51,7 @@
         justify-content: center;
         display: flex;
         align-items: center;
+        height: auto;
 
         .hero {
             position: relative;
@@ -62,6 +63,7 @@
                 z-index: 4;
                 position: relative;
                 width: 80%;
+                height: auto;
             }
 
             img:last-child {
@@ -70,6 +72,7 @@
                 bottom: 0;
                 right: 0;
                 width: 80%;
+                height: auto;
             }
         }
     }
