@@ -24,7 +24,7 @@ const ContributionSec = () => {
             <div className="contributeCards">
                 <div className="contributeCard">
                     <div className={theme === "light" ? 'cImg imgMask' : 'cImg'}>
-                        <img src={contribution3} />
+                        <img src={contribution3} alt='contribution img2' />
                     </div>
                     <div className="cCardText">
                         <h1>3D GREEK STATUE PACK</h1>
@@ -39,7 +39,7 @@ const ContributionSec = () => {
                         <Button reverse text="DOWNLOAD" background borderRadius textColor="black" padding="1.5vw" Icon={FaDownload} />
                     </div>
                     <div className='cImg'>
-                        <img src={contribution2} />
+                        <img src={contribution2} alt='contribution img2' />
                     </div>
                 </div>
             </div>

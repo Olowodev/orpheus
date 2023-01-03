@@ -26,8 +26,8 @@ const Header = () => {
         </div>
         <div className='rightHeader'>
           <div className='hero'>
-            <img src={theme === "dark" ? hero : lightHero} />
-            <img src={theme === "dark" ? heroBg : lightHeroBg} />
+            <img src={theme === "dark" ? hero : lightHero} alt='header img' />
+            <img src={theme === "dark" ? heroBg : lightHeroBg} alt='header img bg' />
           </div>
         </div>
       </div>

@@ -41,7 +41,7 @@ const NavBar = () => {
       <div className='navCont'>
         <a href='#home'>
           <div className='leftNav'>
-            <img src={theme === "light" ? lightLogo : Logo} />
+            <img src={theme === "light" ? lightLogo : Logo} alt='logo' />
             <p>ORPHEUS</p>
           </div>
         </a>
