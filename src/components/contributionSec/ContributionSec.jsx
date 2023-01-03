@@ -29,14 +29,14 @@ const ContributionSec = () => {
                     <div className="cCardText">
                         <h1>3D GREEK STATUE PACK</h1>
                         <h2>OVER <span>200</span> GREEK STYLE SCULPTURE</h2>
-                        <Button reverse text="DOWNLOAD" background borderRadius textColor="black" padding="15px" Icon={FaDownload} />
+                        <Button reverse text="DOWNLOAD" background borderRadius textColor="black" padding="1.5vw" margin="0 0 20px 0" Icon={FaDownload} />
                     </div>
                 </div>
                 <div className="contributeCard">
                     <div className="cCardText">
                         <h1>GREEK STATUE AVATARS</h1>
                         <h2>+500 GREEK STYLE <span>USER AVATARS</span></h2>
-                        <Button reverse text="DOWNLOAD" background borderRadius textColor="black" padding="15px" Icon={FaDownload} />
+                        <Button reverse text="DOWNLOAD" background borderRadius textColor="black" padding="1.5vw" Icon={FaDownload} />
                     </div>
                     <div className='cImg'>
                         <img src={contribution2} />

@@ -5,8 +5,11 @@
     gap: 8px;
     font-size: 18px;
     font-weight: 500;
-    line-height: 50px;
     letter-spacing: 0.15em;
+
+    @media screen and (max-width: 942px) {
+        font-size: 14px;
+    }
 
     .black {
         color: black;

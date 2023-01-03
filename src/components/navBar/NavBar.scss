@@ -26,10 +26,52 @@
     .rightNav {
         display: flex;
         align-items: center;
-        gap: 43px;
+        gap: 33px;
         font-weight: 500;
         font-size: 16px;
         line-height: 20px;
+
+        @media screen and (max-width: 767px) {
+            .navLink {
+                display: none;
+            }
+        }
+
+        .navMenu {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            display: none;
+
+            @media screen and (max-width: 767px) {
+                display: block;
+            }
+            div {
+                position: fixed;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                z-index: 6;
+                padding: 1.5rem 1rem;
+                padding-right: 3rem;
+                width: 80%;
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                background-color: var(--background-color);
+                box-shadow: 0 0 20px rgba(40, 40, 40, 0.15);
+
+                .closeButton {
+                    align-self: flex-end;
+                    margin-bottom: 40px;
+                }
+
+                a {
+                    margin: 1rem;
+                    align-self: flex-start;
+                }
+            }
+        }
 
         & p {
             position: relative; 
@@ -73,8 +115,4 @@
     }
 }
 
-@media (max-width: 767px) {
-    .rightNav {
-        display: none;
-    }
-}
+

@@ -4,6 +4,13 @@
     justify-content: space-between;
     align-items: center;
 
+    @media screen and (max-width: 650px) {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 50px
+    }
+
     .leftHeader {
         display: flex;
         flex-direction: column;
@@ -11,11 +18,11 @@
         flex: 1;
         width: 100%;
 
+
         h1 {
             font-family: 'Cinzel', serif;
             font-size: 64px;
             font-weight: 500;
-            line-height: 77px;
             letter-spacing: -0.01em;
             background: linear-gradient(295.38deg, #ffe5a2 4.89%, #bf841a 50.44%, #ffcd74 95.06%);
             -webkit-background-clip: text;
@@ -23,11 +30,21 @@
             background-clip: text;
             text-fill-color: transparent;
 
+            @media (min-width: 320px) {
+                  font-size: calc(2rem + ((1vw - 3.2px) * 1.75));
+                  min-height: 0vw;
+              }
+
             span {
                 font-size: 72px;
                 font-weight: 900;
-                line-height: 97px;
                 letter-spacing: 0.35em;
+
+                @media (min-width: 320px) {
+                      font-size: calc(2.5rem + ((1vw - 3.2px) * 1.75));
+                      min-height: 0vw;
+                    
+                  }
             }
         }
 
@@ -36,12 +53,31 @@
             font-weight: 400;
             line-height: 50px;
             color: var(--left-head-color);
+
+            @media (min-width: 320px) {
+                  line-height: calc(1.875rem + ((1vw - 3.2px) * 1.4205));
+                  min-height: 0vw;
+              }
+
+            @media screen and (max-width: 768px) {
+                font-size: 16px;
+            }
         }
 
         .headButtons {
             display: flex;
             align-items: center;
             gap: 56px;
+
+            @media screen and (max-width: 650px) {
+                width: 100%;
+                align-items: center;
+                justify-content: center;
+            }
+
+            @media screen and (max-width: 393px) {
+                gap: 20px;
+            }
         }
     }
 

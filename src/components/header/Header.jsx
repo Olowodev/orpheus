@@ -20,8 +20,8 @@ const Header = () => {
           <h1>Yet the story of <span>Orpheus</span></h1>
           <p className='leftBody'>Product &amp; Graphic Designer, with experience in delivering end-to-end UX/UI design for software products.</p>
           <div className='headButtons'>
-            <Button Icon={FaAngleDown} text="WORKS" padding="32px" textColor="gradient" />
-            <Button text="FREE STUFF" padding="32px" textColor="black" borderRadius background />
+            <Button Icon={FaAngleDown} text="WORKS" padding="0 6% 0 0" textColor="gradient" />
+            <Button text="FREE STUFF" padding="3% 5%" textColor="black" borderRadius background />
           </div>
         </div>
         <div className='rightHeader'>
